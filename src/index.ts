@@ -1,11 +1,13 @@
-export default function func(options: Object): Function {
-  return function fooBar() {
-    let foo = 1;
+export * from "./checkError";
+export * from "./errors";
+export * from "./getParam";
+export * from "./makeQuery";
+export * from "./makeRequest";
+export * from "./types";
+export * from "./utils";
+export * from "./validatingParams";
+export * from "./validatingResponse";
 
-    if (options) {
-      foo = 2;
-    }
+import MobxRequestMaker from "./MobxRequestMaker";
 
-    return foo;
-  };
-}
+export default MobxRequestMaker;

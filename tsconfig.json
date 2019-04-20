@@ -11,6 +11,10 @@
     "noImplicitAny": true,
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
-    "pretty": true
+    "pretty": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2017"
+    ]
   }
 }
